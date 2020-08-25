@@ -2,6 +2,7 @@ from eth_hash.auto import keccak
 from py_ecc.secp256k1 import ecdsa_raw_sign
 
 n = 5
+filename = '../dataset_59926_6 (1).txt'
 
 
 def main(lines):
@@ -18,6 +19,6 @@ def main(lines):
 
 
 if __name__ == '__main__':
-    with open('../dataset_59926_6 (1).txt') as file:
+    with open(filename) as file:
         file_lines = file.read().split('\n')
         main(file_lines)
