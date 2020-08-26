@@ -1,0 +1,3 @@
+py-ecc
+eth-hash[pycryptodome]
+web3

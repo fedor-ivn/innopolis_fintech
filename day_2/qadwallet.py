@@ -4,7 +4,7 @@ from eth_account import Account
 from web3 import Web3, HTTPProvider
 from web3.exceptions import TransactionNotFound
 
-from units import get_scaled_amount
+from day_2.units import get_scaled_amount
 
 
 TRANSACTION_GAS = 21000
