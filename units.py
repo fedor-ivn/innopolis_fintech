@@ -40,5 +40,5 @@ def get_unit(amount):
 
 def get_scaled_amount(amount):
     unit = get_unit(amount)
-    unitized_amount = round(Web3.fromWei(amount, check_unit_alias(unit)), 6)
+    unitized_amount = '{:g}'.format(float(round(Web3.fromWei(amount, check_unit_alias(unit)), 6)))
     return unitized_amount, unit
