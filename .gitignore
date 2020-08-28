@@ -1,3 +1,5 @@
  __pycache__/
 .idea/
 venv/
+.DS_Store
+day_*/__pycache__
