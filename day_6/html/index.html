@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IU Token Burner</title>
+    <style>
+        input {
+            width: 350px;
+        }
+        input::placeholder {
+            color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+<input id="contractAddress" type="text" value="0x5e3d63bBF0c9D673eB8cB6D001ccB44DD05ce0ed">
+<button id="getBalance">Get Balance</button>
+<div id="balance">N/A</div>
+<hr>
+<input id="countToBurn" type="text">
+<button id="burnButton">Burn</button>
+<button id="giveMeSomeTokens">Give me some tokens</button>
+</body>
+<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>

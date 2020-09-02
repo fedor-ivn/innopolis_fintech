@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  web:
+    build: .
+    image: testapp
+    container_name: web
+    ports:
+      - 8000:80
+    volumes:
+      - ./html:/html
+    restart: on-failure
