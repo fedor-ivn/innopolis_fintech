@@ -3,3 +3,7 @@
 venv/
 .DS_Store
 day_*/__pycache__
+
+# day_5
+day_5/*.json
+!day_5/*.example.json

@@ -1,2 +1,4 @@
+fire
+requests
 py-ecc
 web3
