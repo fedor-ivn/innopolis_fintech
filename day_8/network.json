@@ -1,0 +1,10 @@
+{
+  "sokol": {
+    "rpcUrl": "https://sokol.poa.network",
+    "gasPriceUrl": "https://gasprice.poa.network/"
+  },
+  "kovan": {
+    "rpcUrl": "https://kovan.infura.io/v3/c8e92206cb58447881d49ddcec49b9e1",
+    "gasPriceUrl": "https://gasprice.poa.network/"
+  }
+}
