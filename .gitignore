@@ -7,3 +7,7 @@ day_*/__pycache__
 # day_5
 day_5/*.json
 !day_5/*.example.json
+
+day_8/*.json
+!day_8/*.example.json
+day_8/build/
